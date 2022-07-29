@@ -39,6 +39,8 @@ class _NewMessagesState extends State<NewMessages> {
             child: TextField(
               autocorrect: false,
               controller: messageController,
+              textCapitalization: TextCapitalization.sentences,
+              enableSuggestions: true,
               decoration: InputDecoration(
                 hintText: 'Enter message here',
                 fillColor: Colors.white,

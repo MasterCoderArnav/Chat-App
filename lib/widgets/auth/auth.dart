@@ -75,6 +75,7 @@ class _AuthFormState extends State<AuthForm> {
                       ),
                     TextFormField(
                       key: const ValueKey('email'),
+                      textCapitalization: TextCapitalization.none,
                       autocorrect: false,
                       autofocus: true,
                       keyboardType: TextInputType.emailAddress,
